@@ -449,7 +449,7 @@
     <!-- FOOTER.LOGO -->
 
     <footer class="footer">
-      <div class="container fotter-two-containers">
+      <div class="container fotter-three-containers">
         <div class="container-first-footer">
           <a class="logo-footer" href="./index.html"
             >Web<span class="logo-span-footer">Studio</span></a
@@ -460,7 +460,7 @@
           </p>
         </div>
 
-        <div>
+        <div class="container-second-footer">
           <p class="soc-med-footer">Social media</p>
           <ul class="footer-soc-list">
             <li class="footer-soc-item">
@@ -493,9 +493,25 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-subscribe">
+          <p class="subscribe-text">Subscribe</p>
+          <form class="footer-form">
+            <input type="email"
+              class="footer-input"
+              name="footer-email"
+              placeholder="E-mail" />
+            <button type="submit" class="footer-btn-subscribe">Subscribe
+              <svg class="subscribe-icon-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-Frame-3-1"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
+    <!-- BACKDROP -->
 
     <div class="backdrop">
       <div class="modal">
@@ -566,24 +582,20 @@
           ></textarea>
           </div>
          
-          <div class="modal-field">
+          <div class="modal-field-box">
             <input class="modal-check visually-hidden"
               type="checkbox" 
                name="terms" 
               id="terms" />
             <label class="check-text" for="terms">
               <span class="check-text-box">
-              <svg class="check-text-icon" width="16" heiht="16">
+              <svg class="check-text-icon" width="16" height="16">
                 <use href="./images/icons.svg#icon-agree"></use>
               </svg>
               </span>I accept the terms and conditions of the <a href=""> Privacy Policy</a>
             </label>
           </div>
-
-
           <button type="submit" class="modal-submit-btn">Send</button>
-
-
         </form>
       </div>
     </div>
