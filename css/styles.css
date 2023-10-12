@@ -502,6 +502,7 @@ img {
 
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 
 .subscribe-text {
@@ -510,7 +511,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 21px;
+  margin-bottom: 16px;
 }
 
 .footer-input {
@@ -545,7 +546,6 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  margin-left: 24px;
   gap: 16px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
