@@ -629,6 +629,7 @@ img {
 .button-btn:focus {
   border: none;
   background-color: #404bbf;
+  fill: #ffffff;
 }
 
 .button-btn:hover + .modal-btn-icon,
