@@ -518,14 +518,19 @@ img {
   width: 264px;
   height: 40px;
   border-radius: 4px;
-  border-color: #fff;
+  border: 1px solid #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: transparent;
   padding-left: 16px;
+  color: #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  font-size: 12px;
 }
 
 .footer-input::placeholder {
-  color: #fff;
+  color: #ffffff;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
@@ -534,7 +539,7 @@ img {
 .footer-btn-subscribe {
   display: flex;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   justify-content: center;
   align-items: center;
@@ -542,6 +547,7 @@ img {
   background-color: #4d5ae5;
   border: none;
   color: #fff;
+  cursor: pointer;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -553,6 +559,10 @@ img {
 .footer-btn-subscribe:hover,
 .footer-btn-subscribe:focus {
   background-color: #404bbf;
+}
+
+.subscribe-icon-footer {
+  margin-left: 16px;
 }
 
 /*=========BACKDROP============*/
@@ -619,12 +629,11 @@ img {
 .button-btn:focus {
   border: none;
   background-color: #404bbf;
-  fill: #ffffff;
 }
 
 .button-btn:hover + .modal-btn-icon,
 .button-btn:focus + .modal-btn-icon {
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .backdrop-text {
